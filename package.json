@@ -1,6 +1,6 @@
 {
   "name": "vid2gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser module for converting a video element into a GIF file.",
   "main": "index.js",
   "scripts": {
