@@ -1,7 +1,6 @@
 var fs = require('fs')
 var workerScriptSrc =
-    fs.readFileSync(__dirname + '/node_modules/animated_gif/dist/Animated_GIF.worker.min.js',
-        { encoding: 'utf8' })
+    fs.readFileSync(__dirname + '/Animated_GIF.worker.min.js', { encoding: 'utf8' })
 var workerScriptBlob = new Blob([ workerScriptSrc ], { type: 'text/javascript' })
 
 var AnimatedGif = require('animated_gif/src/Animated_GIF.js')
