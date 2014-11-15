@@ -1,0 +1,33 @@
+{
+  "name": "vid2gif",
+  "version": "1.0.0",
+  "description": "Browser module for converting a video element into a GIF file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tec27/vid2gif"
+  },
+  "keywords": [
+    "video",
+    "gif"
+  ],
+  "author": "Travis Collins <travis@tec27.com> (http://tec27.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tec27/vid2gif/issues"
+  },
+  "homepage": "https://github.com/tec27/vid2gif",
+  "dependencies": {
+    "animated_gif": "0.0.3",
+    "brfs": "^1.2.0",
+    "data-uri-to-blob": "0.0.4"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  }
+}
